@@ -1,0 +1,14 @@
+{
+  "name": "hedera-schedule-signer",
+  "version": "1.0.0",
+  "description": "Sign a Hedera scheduled multisig transaction",
+  "main": "sign.js",
+  "scripts": {
+    "sign": "node sign.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.81.0",
+    "dotenv": "^17.0.0"
+  }
+}
